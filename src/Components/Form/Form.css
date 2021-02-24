@@ -1,0 +1,29 @@
+.tact{
+    background-color: #e8c9bb;
+    padding-top: 101px;
+    padding-bottom: 144px;
+}
+
+
+
+.contact-flex{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.contact-flex p:first-child{
+    flex: 0 0 40%;
+}
+.contact-flex p:last-child{
+    flex: 0 0 60%;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    margin: 115px auto 0px auto;
+}
+.social img{
+    width: 40px;
+    height: 40px;
+}
+

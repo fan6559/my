@@ -1,0 +1,66 @@
+
+.competences{
+    background-color: #f7caad;
+    padding-top: 107px;
+    padding-bottom: 100px;
+}
+
+
+.comp{
+    display:flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+}
+.inf{
+    flex: 0 0 40%;
+    font-size: 20px;
+}
+.conteneur-barre{
+    flex: 0 0 46%;
+    border-radius: 16px;
+    background-color: white;
+    /* border-bottom: 0px ridge grey; */
+    /* width: 54%; */
+    height: 41px;
+}
+.barre{
+    display: block;
+    height: 100%;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 5px;
+}
+.c80{
+    width: 80%;
+    background-color: darksalmon;
+}
+.c45{
+    width: 45%;
+    background-color: darksalmon;
+}
+.c70{
+    width: 70%;
+    background-color: darksalmon;
+}
+.c30{
+    width: 30%;
+    background-color:darksalmon;
+    border-radius: 5px;
+}
+
+.c75{
+    width: 75%;
+    background-color: darksalmon
+}
+
+.c90{
+    width: 90%;
+    background-color: darksalmon;
+}
+
+.com{
+    font-family: monospace;
+    font-size: 20px;
+    margin-top: -40px;
+    margin-bottom: 156px;
+    text-decoration: underline;
+}
