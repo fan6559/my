@@ -55,7 +55,7 @@ return (
             <div className="banner-text">
               <h1 className="responsive-headline">Fanny Camus</h1>
               <h3>
-                Développeur web Junior , je suis passionnée du numérique et des
+                Développeur web Junior , je suis passionnée par le numérique et les
                 jeux vidéos.
               </h3>
               </div>
