@@ -6,7 +6,7 @@ function Interets () {
         
         <div id="interets" className="interets">
            <div className="cen"> 
-            <h2>Centres d'intérêt :</h2>
+            <h2>Centres d'intérêt</h2>
            </div>
            <section className="inr">
            <figure className="loisirs">

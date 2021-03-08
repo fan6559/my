@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
-import Navbar from "./Components/Navbar/Header";
+import Navbar2 from "./Components/Navbar2/Navbar"
+import Header from "./Components/Header/Header"
 import About from "./Components/About/About";
 import Resume from "./Components/Resume/Resume";
 import Competences from "./Components/Competences/Competences";
@@ -12,7 +13,8 @@ import Footer from "./Components/Footer/Footer";
 function App() {
   return (
     <div className="App">
-     < Navbar />
+      <Navbar2/>
+    < Header/>
      < About />
      < Resume />
      < Competences />

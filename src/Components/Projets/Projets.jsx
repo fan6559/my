@@ -3,9 +3,9 @@ import "./Projets.css"
 
 function Projets () {
     return(
-        <div className="projet">
+        <div id="projets"className="projet">
         <div className="ts">
-        <h2>Projets Web :</h2>
+        <h2>Projets Web</h2>
        </div>
        <div className="card">
         <div className="card-image">

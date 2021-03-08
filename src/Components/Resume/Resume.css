@@ -1,6 +1,8 @@
 .resume{
     padding-top: 75px;
     padding-bottom: 339px;
+    padding-right: 8px;
+    padding-left: 11px;
     background-color: salmon;
 }
 
@@ -88,8 +90,7 @@ h4{
 
 .for{
     color: bisque;
-    font-size: 25px;
+    font-size: 20px;
     font-family: monospace;
-    text-decoration: underline;
     font-weight: normal;
 }

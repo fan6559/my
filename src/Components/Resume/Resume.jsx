@@ -3,7 +3,7 @@ import "./Resume.css"
 
 function Resume () {
     return (
-        <div className="resume">
+        <div  id="resume" className="resume">
         <div className="for">
             <h2>Formations :</h2>
         </div>

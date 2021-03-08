@@ -7,7 +7,7 @@ return(
     <div id="competences" className="competences">
         <div className="wrap">
    <div className="section-title wow fadeInUp">
-     <h1>Compétences</h1>
+     <h1>Compétences Informatiques</h1>
      <span className="border"></span>
    </div>
    <article className="row">

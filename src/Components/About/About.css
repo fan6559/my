@@ -21,7 +21,6 @@
    font-size: 15px;
    /* margin-bottom: 28px; */
    margin-top: 88px;
-   font-family: monospace;
    text-align: justify;
  }
  #about .prof {
@@ -29,7 +28,7 @@
     width: 120px;
     height: 120px;
     border-radius: 100%;
-    margin-top: 109px;
+    margin-top: 126px;
  }
  
  #about.main-col{
