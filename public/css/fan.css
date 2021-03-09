@@ -111,7 +111,9 @@
    .contact{
       padding-left: 20px;
       margin-right: auto;
-      font-family: monospace;
-      font-size: 19px;
+      font-size: 17px;
+      letter-spacing: 5px;
+      font-weight: 600;
+      color: black;
       margin-bottom: 105px;
   }
