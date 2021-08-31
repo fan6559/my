@@ -11,21 +11,22 @@ function Resume () {
                 <img src=""></img>
                 </div>
                 <div className="infor">
-                    <h3>Développeur Web en Alternance - OpenClassrooms (Anglet)</h3>
-                    <h4>Depuis 2020</h4>
+                    <h3>Technicienne Informatique en Alternance- OpenClassrooms (Anglet)</h3>
+                    <h4>2021</h4>
                 </div>
                 <div className="res">
                     <div className="nou">
-                    <p>Découper, assembler et intégrer tous les éléments d’une maquette graphique en HTML5 et CSS ;
-                        Animer les pages web avec CSS3 ;
-                        Appliquer les standards du web et les normes en vigueur ;
-                        Construire un site web fluide s’adaptant à tout type d’écran (web,smartphone et tablette) ;
-                        Améliorer le référencement naturel en utilisant les balises selon leur sémantique ;
-                        Faire réagir la page web en fonction des actions de l’utilisateur en JavaScript ;
-                        Se connecter à un service web pour exploiter des données tierces (API) ;
-                        Gérer les comptes utilisateurs ;
-                        Concevoir un site maintenable grâce à la gestion des erreurs et exceptions ;
-                        Créer, gérer et afficher le contenu d’une base de données.</p>
+                    <p>Monter un poste de travail répondant aux besoins de l'utilisateur
+                        Installer un poste de travail utilisateur et des périphériques (Windows et Linux)
+                        Installer du matériel et des périphériques sur une infrastructure d'entreprise
+                        (Windows)
+                        Configurer des logiciels d'entreprise
+                        Fournir une assistance informatique
+                        Accompagner les utilisateurs sur les outils et la sécurité informatique
+                        Surveiller la disponibilité d'un serveur
+                        Gérer le stock d'un parc informatique
+                        Installer et paramétrer un système d’exploitation Serveur (Windows et Linux)
+                        Gérer les droits d’accès aux données dans le respect de la stratégie de sécurité</p>
                     </div>
                 </div>
                 <div className="wild">
@@ -76,7 +77,7 @@ function Resume () {
                         </div>
                     </div>
                     <div className="bou">
-                    <a className="but" href="https://cvdesignr.com/p/5ee736e775bf0?hl=fr_FR" target="_blank" download>Télécharger mon CV</a>
+                    <a className="but" href="https://cvdesignr.com/p/5ee736e775bf0" target="_blank" download>Télécharger mon CV</a>
                     </div>
 
                     </div>

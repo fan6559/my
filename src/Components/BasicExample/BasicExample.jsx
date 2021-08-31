@@ -31,7 +31,7 @@ export default function BasicExample() {
         <ul id="nav" className="nav">
           <li className="current">
             <a className="smoothscroll">
-            <Link to="/header">Accueiiiiiiiiiiiiiiil</Link>
+            <Link to="/header">Accueil</Link>
             </a>
           </li>
           <li>
