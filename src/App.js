@@ -4,6 +4,7 @@ import Navbar2 from "./Components/Navbar2/Navbar"
 import Header from "./Components/Header/Header"
 import About from "./Components/About/About";
 import Resume from "./Components/Resume/Resume";
+import Expepro from "./Components/Expepro/Expepro";
 import Competences from "./Components/Competences/Competences";
 import Projets from "./Components/Projets/Projets";
 import Interets from "./Components/Interets/Interets";
@@ -17,6 +18,7 @@ function App() {
     < Header/>
      < About />
      < Resume />
+     < Expepro />
      < Competences />
      < Projets />
      < Interets />

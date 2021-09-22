@@ -3,7 +3,7 @@ header {
    height: 930px;
    min-height: 500px;
    width: 100%;
-   background: url(../Image/image1.jpeg) no-repeat top center;
+   background: url(../Image/couverture.jpg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -33,7 +33,7 @@ header .banner-text {
 
 header .banner-text h1 {
    font: 76px/1.1em 'opensans-bold', sans-serif;
-   color: #63C3E9;
+   color: white;
    letter-spacing: 8px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgb(0 0 0 / 80%);

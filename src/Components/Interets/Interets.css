@@ -1,5 +1,5 @@
 .interets{
-    background-color: coral;
+    background-color: burlywood;
     padding-top: 85px;
     padding-bottom: 366px;
 }
@@ -9,7 +9,7 @@
     width: 100%;
     padding-bottom: 20px;
     margin: 20px auto;
-    background-color: coral;
+    background-color: burlywood;
     flex-flow: row wrap;
 }
 

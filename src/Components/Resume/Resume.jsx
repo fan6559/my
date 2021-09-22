@@ -16,16 +16,16 @@ function Resume () {
                 </div>
                 <div className="res">
                     <div className="nou">
-                    <p>Monter un poste de travail répondant aux besoins de l'utilisateur
-                        Installer un poste de travail utilisateur et des périphériques (Windows et Linux)
+                    <p>Monter un poste de travail répondant aux besoins de l'utilisateur /
+                        Installer un poste de travail utilisateur et des périphériques (Windows et Linux) /
                         Installer du matériel et des périphériques sur une infrastructure d'entreprise
-                        (Windows)
-                        Configurer des logiciels d'entreprise
-                        Fournir une assistance informatique
-                        Accompagner les utilisateurs sur les outils et la sécurité informatique
-                        Surveiller la disponibilité d'un serveur
-                        Gérer le stock d'un parc informatique
-                        Installer et paramétrer un système d’exploitation Serveur (Windows et Linux)
+                        (Windows) /
+                        Configurer des logiciels d'entreprise /
+                        Fournir une assistance informatique /
+                        Accompagner les utilisateurs sur les outils et la sécurité informatique /
+                        Surveiller la disponibilité d'un serveur /
+                        Gérer le stock d'un parc informatique /
+                        Installer et paramétrer un système d’exploitation Serveur (Windows et Linux) /
                         Gérer les droits d’accès aux données dans le respect de la stratégie de sécurité</p>
                     </div>
                 </div>
@@ -39,11 +39,11 @@ function Resume () {
                         </div>
                         <div className="res">
                             <div className="nou">
-                            <p> Etude d'un nouveau langage (Javascript)
-                                Découverte d'une des librairies de Javascript (React)
-                                Découverte de quelques frameworks React (Reacstrap , Semantic UI React)
-                                Découverte de NodeJs et MySQL
-                                Hackathon en groupe de trois (Créer un site internet à partir d'un théme en moins de 24h)
+                            <p> Etude d'un nouveau langage (Javascript) /
+                                Découverte d'une des librairies de Javascript (React) /
+                                Découverte de quelques frameworks React (Reacstrap , Semantic UI React) /
+                                Découverte de NodeJs et MySQL /
+                                Hackathon en groupe de trois (Créer un site internet à partir d'un théme en moins de 24h) /
                                 Travail en groupes(Créer des sites internet ou applications pour de vrais clients)</p>
                             </div>
                         </div>
@@ -57,8 +57,8 @@ function Resume () {
                         </div>
                         <div className="res">
                             <div className="nou">
-                            <p> Module 1 : Technologies du web ( informatique : Hardware , Software ; Mot clés du web : Http , Hyperlien , Navigateur web , World Wide Web ... ; Logiciels utilisés : Editeur , Gestionnaire de contenu , Logiciels de création graphiques , Google ... )
-                                Module 2 : Structure HTML : (Balise (Head) , (body) , (!doctype), (html) ; Balise block et inline ; Les liens ; Les images ; Les tableaux; Les listes ; Les conteneurs...)
+                            <p> Module 1 : Technologies du web ( informatique : Hardware , Software ; Mot clés du web : Http , Hyperlien , Navigateur web , World Wide Web ... ; Logiciels utilisés : Editeur , Gestionnaire de contenu , Logiciels de création graphiques , Google ... ) /
+                                Module 2 : Structure HTML : (Balise (Head) , (body) , (!doctype), (html) ; Balise block et inline ; Les liens ; Les images ; Les tableaux; Les listes ; Les conteneurs...) /
                                 Module 3 : Style CSS ( Lier CSS/Html ; Appliquer un style ; Taille du texte ; Police ; Largeur et hauteur ; Propriété display ; Types de positionnements ; Couleur de fond ; Image de fond ; types de Background...) </p>
                             </div>
                         </div>

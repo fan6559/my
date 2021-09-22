@@ -25,6 +25,10 @@ function Interets () {
             <img className="loi"src="Logo/randonne(1).jpg" alt="Rando"></img>
             <figcaption>Randonnées</figcaption>
         </figure>
+        <figure className="loisirs">
+            <img className="loi"src="Logo/photo.jpg" alt="Photo"></img>
+            <figcaption>Photographie</figcaption>
+        </figure>
            </section>
         </div>
         

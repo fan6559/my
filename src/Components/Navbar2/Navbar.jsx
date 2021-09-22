@@ -10,6 +10,7 @@ function Navbar () {
       <li><a href="#">Accueil</a></li>
       <li><a href="#about">À propos</a></li>
       <li><a href="#resume"> Formations</a></li>
+      <li><a href="#expepro"> Expérience professionelles</a></li>
       <li><a href="#competences">Compétences</a></li>
       <li><a href="#projets">Projets</a></li>
       <li><a href="#interets">Centres d'intêrets</a></li>

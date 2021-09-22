@@ -30,7 +30,7 @@ function Projets () {
             </div>
         <div className="card-body">
             <div className="card-title">
-                <h3>World Warcraft</h3>
+                <h3>World Of Warcraft</h3>
             </div>
             <div className="card-excerpt">
                 <p> Projet en groupe de 3. Ce projet m'a permis de faire une première mise en pratique à react ainsi que la récupération des données d'une API. Il m'a permis aussi de découvrir les hooks et react Router.</p>
