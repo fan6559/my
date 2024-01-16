@@ -5,7 +5,7 @@
 }
 
 #about {
-    background: #e1c8c3;
+    background: #e1f5fe;
     padding-top: 223px;
     padding-bottom: 480px;
     overflow: hidden;
@@ -17,18 +17,18 @@
  #about p {
    line-height: 44px;
    color: black;
-   margin-left: -5px;
-   font-size: 15px;
+   margin-left: 47px;
+   font-size: 18px;
    /* margin-bottom: 28px; */
-   margin-top: 88px;
+   margin-top: 117px;
    text-align: justify;
  }
  #about .prof {
-    position: relative;
-    width: 120px;
-    height: 120px;
-    border-radius: 100%;
-    margin-top: 126px;
+   position: relative;
+   width: 200px;
+   height: 200px;
+   border-radius: 100%;
+   margin-top: 93px;;
  }
  
  #about.main-col{
@@ -127,7 +127,7 @@
 
 /* mobile wide/smaller tablets
 --------------------------------------------------------------- */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1024px) {
 
    .row {
 	   width: 460px;
@@ -175,4 +175,78 @@
 
    .wide .row { max-width: 1180px; }
 
+}
+
+
+@media screen and (max-width: 767px) {
+   #about .prof {
+      margin-top: -45px;
+   }
+}
+
+@media screen and (max-width: 767px) {
+   #about p {
+      margin-top: -19px;
+      margin-left: -4px
+   }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+   #about .prof {
+      margin-top: -45px;
+   }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+   #about p {
+      margin-top: -19px 
+   }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) 
+  and (orientation: landscape) {
+   #about .prof {
+      margin-top: -45px;
+   }
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) 
+  and (orientation: landscape) {
+   #about p {
+      margin-top: -19px 
+   }
+}
+
+@media only screen 
+  and (min-device-width: 1024px) /* Réglez la largeur minimale en fonction de votre conception */
+  and (max-device-width: 1366px) /* Réglez la largeur maximale en fonction de votre conception */
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+   #about {
+      padding-top: 326px;
+   }
+}
+
+
+/* Styles spécifiques à l'iPad Air en mode portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+   #about {
+      padding-top: 334px;
+   }
 }

@@ -17,12 +17,12 @@ body {
     padding: 0 20px;
   }
   .section-title h1{
-    margin: 151px;
     line-height: 50px;
     letter-spacing: 5px;
     font-weight: 600;
     color: black;
     margin-left: 19px;
+    margin-bottom: 70px
   }
   
   
@@ -30,7 +30,6 @@ body {
   .row ul {
     margin: 0 20px 0 0 !important;
     text-align: left !important;
-    padding: 0;
   }
   
   .row ul li{

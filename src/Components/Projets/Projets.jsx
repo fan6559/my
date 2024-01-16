@@ -5,9 +5,9 @@ function Projets () {
     return(
         <div id="projets"className="projet">
         <div className="ts">
-        <h2>Projets Web</h2>
+        <h2>Projets Web : </h2>
        </div>
-       <div className="card">
+       <div className="cardm">
         <div className="card-image">
             <a href="https://github.com/lucas240/HTML-projet-1" target="_blank">
             <img src="WebAssembly.png" alt="" />

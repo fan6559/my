@@ -5,7 +5,7 @@ function Header (){
 
 return (
     <header>
-        <div className="row banner">
+        <div id="header" className="row banner">
             <div className="banner-text">
               <h1 className="responsive-headline">Fanny Camus</h1>
               </div>

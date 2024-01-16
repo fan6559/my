@@ -15,7 +15,7 @@ function Form () {
                 <a href="mailto:fanny.camus@outlook.fr">
                     <img src="/Logo/mail.png" alt="Mail"></img>   
                     </a>
-                <a href="tel:+33619783884">
+                <a href="tel:+33651213453">
                     <img src="/Logo/phone-call.png" alt="tel"></img>
                     </a>
                 <a href="https://www.linkedin.com/in/fanny-camus-js/" target="_blank">
@@ -24,12 +24,11 @@ function Form () {
                 <a href="https://github.com/fan6559" target="_blank">
                     <img src="/Logo/github.png" alt="Logo Yt"></img>
                     </a>
-                    <a href="https://twitter.com/fann_game" target="_blank">
+                    <a href="https://twitter.com/Almafiaa__" target="_blank">
                     <img src="/Logo/twitter.png" alt="Logo Yt"></img>
                     </a>
-            </div>
-      </div>
-   
+                 </div> 
+             </div>
     )
 }
 

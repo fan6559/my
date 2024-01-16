@@ -1,13 +1,16 @@
 header {
    position: relative;
-   height: 930px;
-   min-height: 500px;
+   height: 873px;
    width: 100%;
-   background: url(../Image/couverture.jpg) no-repeat top center;
+   background: url(../Image/image1.jpeg) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+}
+
+:root{
+   --header-background: url(../Image/image1.jpeg) no-repeat top center;
 }
 
 header:before {
@@ -38,7 +41,87 @@ header .banner-text h1 {
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgb(0 0 0 / 80%);
    margin-top: 94px;
+   animation-duration: 3s;
+  animation-name: slidein;
+  animation-direction: alternat
    
 }
 
+@keyframes slidein {
+   from {
+     margin-left: 100%;
+     width: 300%;
+   }
+ 
+   to {
+     margin-left: 0%;
+     width: 100%;
+   }
+ }
+
+
+ @media screen and (min-width: 1024px) {
+   header {
+     position: relative;
+     background: var(--header-background);
+     text-align: center;
+     overflow: hidden;
+   }
+ }
+ 
+ /* Styles pour les écrans de taille moyenne (600px - 1023px) */
+ @media screen and (min-width: 600px) and (max-width: 1023px) {
+  
+ 
+ /* Styles pour les écrans étroits (< 600px) - smartphones */
+ @media screen and (max-width: 599px) {
+   header {
+      position: relative;
+      background: var(--header-background);
+      text-align: center;
+      overflow: hidden;
+   }
+ }
+
+ @media only screen 
+  and (min-device-width: 768px) /* Réglez la largeur minimale en fonction de votre conception */
+  and (max-device-width: 1024px) /* Réglez la largeur maximale en fonction de votre conception */
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+   header {
+      position: relative;
+      background: var(--header-background);
+      text-align: center;
+      overflow: hidden;
+      height: 1108px
+   }
+ }
+}
+
+@media only screen 
+  and (min-device-width: 1024px) /* Réglez la largeur minimale en fonction de votre conception */
+  and (max-device-width: 1366px) /* Réglez la largeur maximale en fonction de votre conception */
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+   header {
+      position: relative;
+      background: var(--header-background);
+      text-align: center;
+      overflow: hidden;
+      height: 1108px
+   }
+}
+@media only screen 
+  and (min-device-width: 1024px) /* Réglez la largeur minimale en fonction de votre conception */
+  and (max-device-width: 1366px) /* Réglez la largeur maximale en fonction de votre conception */
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+   header {
+      position: relative;
+      background: var(--header-background);
+      text-align: center;
+      overflow: hidden;
+      height: 952px
+   }
+}
 

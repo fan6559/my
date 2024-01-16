@@ -7,7 +7,7 @@ function Footer () {
             <div>
                 <img className="copy" src="/Logo/copyright.png"></img>
             </div>
-           <footer className="right">Copyright 2021 Camus Fanny </footer>
+           <footer className="right">Copyright 2024 Camus Fanny </footer>
         </div>
     )
 }

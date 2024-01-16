@@ -1,16 +1,29 @@
 .footer{
     padding-bottom: 21px;
-    background-color: #e6dfd3;
+    background-color: white;
+    margin-bottom: -153p
 }
 
 .copy{
-    width: 25px;
+    width: 16px;
     margin-top: 20px;
-    margin-left: -182px;
+    margin-left: -195px;
 }
 
 .right{
     margin-left: 278px;
     margin-top: -25px;
-    margin-left: 83px;
+    margin-left: 43px;
+}
+
+@media only screen 
+  and (min-device-width: 1024px) /* Réglez la largeur minimale en fonction de votre conception */
+  and (max-device-width: 1366px) /* Réglez la largeur maximale en fonction de votre conception */
+  and (-webkit-min-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+    .footer{
+        padding-bottom: 21px;
+        background-color: white;
+        margin-bottom: -153p
+    }
 }

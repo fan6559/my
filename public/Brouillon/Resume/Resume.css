@@ -1,0 +1,96 @@
+.resume{
+    padding-top: 75px;
+    padding-bottom: 339px;
+    padding-right: 8px;
+    padding-left: 11px;
+    background-color: salmon;
+}
+
+.infor{
+    display: flex;
+    flex-flow: column wrap;
+}
+.exp-logo{
+    flex: 0 0 25%;
+    max-width: 100px;
+}
+.res{
+    flex: 0 0 70%;
+    margin-left: auto;
+}
+.exp img{
+    width: 100%;
+}
+
+ h3{
+    line-height: 30px;
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+h4{
+    font-size:  1em;
+    font-weight: normal;
+}
+
+ .nou{
+    font-size: 1em;
+    line-height: 1.5em;
+    color: white;
+    font-size: 14px;
+}
+
+.open{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 49px;
+    margin-bottom: 10px;
+}
+
+.wild{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 49px;
+    margin-bottom: 10px;
+}
+
+.gre{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 49px;
+    margin-bottom: 10px;
+}
+
+.char{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 49px;
+    margin-bottom: 10px;
+}
+
+.but{
+    text-align: center;
+    padding: 14px;
+    margin: 10px auto 30px auto;
+    color: black;
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 3px #ccc;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.bou{
+    margin-top: 127px;
+}
+
+.for{
+    color: bisque;
+    font-size: 17px;
+    letter-spacing: 5px;
+    font-weight: 600;
+}

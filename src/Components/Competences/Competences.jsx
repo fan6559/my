@@ -7,10 +7,10 @@ return(
     <div id="competences" className="competences">
         <div className="wrap">
    <div className="section-title wow fadeInUp">
-     <h1>Compétences Informatiques</h1>
+     <h1>Compétences Informatiques :</h1>
      <span className="border"></span>
    </div>
-   <article className="row">
+   <div className="row">
      <ul>
        <li className="html">
          <em>HTML/HTML5</em>
@@ -37,15 +37,9 @@ return(
          </div>
        </li>
      </ul>
-   </article>
-   <article className="row">
+   </div>
+   <div className="row">
      <ul>
-       <li className="nodemy">
-         <em>NodeJs/MySQL</em>
-         <div>
-           <span class="animated fadeInLeft"></span>
-         </div>
-       </li>
        <li className="reactstrap">
          <em>Reactstrap</em>
          <div>
@@ -65,9 +59,9 @@ return(
          </div>
        </li>
      </ul>
-   </article>
+   </div>
  </div>
-            </div>
+</div>
 )           
 }
 

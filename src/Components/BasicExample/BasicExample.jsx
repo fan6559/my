@@ -6,14 +6,13 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Header from "../Header/Header";
 import About from "../About/About";
-import Resume from "../Resume/Resume";
 import Competences from "../Competences/Competences";
 import Projets from "../Projets/Projets";
-import Interets from "../Interets/Interets";
+import Interets2 from "../Interets2/Interets2";
+import Resume2 from "../Resume2/Resume2";
 import Form from "../Form/Form";
-import Header from "../Navbar/Header";
-
 
 
 export default function BasicExample() {
@@ -37,11 +36,6 @@ export default function BasicExample() {
           <li>
           <a className="smoothscroll">
             <Link to="/about">À propos</Link>
-            </a>
-          </li>
-          <li>
-          <a className="smoothscroll">
-            <Link to="/resume">Formations</Link>
             </a>
           </li>
           <li>
@@ -73,8 +67,8 @@ export default function BasicExample() {
           <Route path="/about">
             <About />
           </Route>
-          <Route path="/resume">
-            <Resume/>
+          <Route path="/Resume2">
+            <Resume2/>
           </Route>
           <Route path="/competences">
             <Competences/>
@@ -82,8 +76,8 @@ export default function BasicExample() {
           <Route path="/projets">
             <Projets/>
           </Route>
-          <Route path="/interets">
-            <Interets/>
+          <Route path="/interet2">
+            <Interets2/>
           </Route>
           <Route path="/form">
           <Form/>
