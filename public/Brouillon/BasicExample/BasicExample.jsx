@@ -1,18 +1,18 @@
 import React from "react";
-import "../BasicExample/BasicExample.css"
+import "./BasicExample.css"
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
-import Header from "../Header/Header";
-import About from "../About/About";
-import Competences from "../Competences/Competences";
-import Projets from "../Projets/Projets";
-import Interets2 from "../Interets2/Interets2";
-import Resume2 from "../Resume2/Resume2";
-import Form from "../Form/Form";
+import Header from "../../../src/Components/Header/Header";
+import About from "../../../src/Components/About/About";
+import Competences from "../../../src/Components/Competences/Competences";
+import Projets from "../../../src/Components/Projets/Projets";
+import Interets2 from "../../../src/Components/Interets2/Interets2";
+import Resume2 from "../../../src/Components/Resume2/Resume2";
+import Form from "../../../src/Components/Form/Form";
 
 
 export default function BasicExample() {

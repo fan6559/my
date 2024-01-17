@@ -41,13 +41,7 @@ return(
    <div className="row">
      <ul>
        <li className="reactstrap">
-         <em>Reactstrap</em>
-         <div>
-           <span className="animated fadeInLeft"></span>
-         </div>
-       </li>
-       <li className="semantic">
-         <em>Semantic-Ui React</em>
+         <em>Pack Office</em>
          <div>
            <span className="animated fadeInLeft"></span>
          </div>
