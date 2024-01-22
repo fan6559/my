@@ -6,10 +6,6 @@ function About() {
     return (
         <div id="about" className="about">
             <div className="video-background">
-                <video autoPlay loop muted className="video">
-                    <source src={require("../../Components/Videos/mont.mp4")} type="video/mp4"/>
-                    Your browser does not support the video tag.
-                </video>
             </div>
             <div className="content">
                 <div className="row">

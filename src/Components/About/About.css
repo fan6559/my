@@ -3,6 +3,7 @@
    overflow: hidden;
    padding-top: 223px;
    padding-bottom: 480px;
+   background: #e1f5fe  
 }
 
 
@@ -33,7 +34,7 @@
  
  #about p {
    line-height: 44px;
-   color: snow;
+   color: black;
    margin-left: 47px;
    font-size: 18px;
    /* margin-bottom: 28px; */
@@ -197,19 +198,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-   .video-background {
-       padding-top: 28%; 
-   }
-
-   .video {
-       position: fixed;
-       top: 0;
-       left: 0;
-       width: 100%;
-       height: 100%;
-       object-fit: cover;
-   }
-
+ 
    #about p {
        margin-top: 20px; 
        margin-left: 0;
@@ -235,18 +224,7 @@
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) 
   and (orientation: landscape) {
-   .video-background {
-      padding-top: 28%; 
-  }
 
-  .video {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-  }
 
   #about p {
       margin-top: 20px; 
@@ -273,19 +251,7 @@
   and (max-device-width: 1366px) 
   and (-webkit-min-device-pixel-ratio: 2) 
   and (orientation: portrait) {
-   .video-background {
-      padding-top: 28%; 
-  }
-
-  .video {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-  }
-
+ 
   #about p {
       margin-top: 20px; 
       margin-left: 0;
@@ -311,18 +277,7 @@
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2) 
   and (orientation: portrait) {
-   .video-background {
-      padding-top: 28%; 
-  }
 
-  .video {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-  }
 
   #about p {
       margin-top: 20px; 
