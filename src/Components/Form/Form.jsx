@@ -18,7 +18,7 @@ function Form () {
                 <a href="tel:+33651213453">
                     <img src="/Logo/phone-call.png" alt="tel"></img>
                     </a>
-                <a href="https://www.linkedin.com/in/fanny-camus-js/" target="_blank">
+                <a href="https://www.linkedin.com/in/fanny-camus64/" target="_blank">
                     <img src="/Logo/linkedin.png" alt="Logo Lk"></img>
                     </a>
                 <a href="https://github.com/fan6559" target="_blank">

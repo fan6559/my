@@ -1,27 +1,46 @@
+.about {
+   position: relative;
+   overflow: hidden;
+   padding-top: 223px;
+   padding-bottom: 480px;
+}
+
+
+.video {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.content {
+   position: relative; 
+   z-index: 3; 
+   
+}
+
 .row{
    max-width: 1020px;
     margin: auto;
     width: 96%;
 }
 
-#about {
-    background: #e1f5fe;
-    padding-top: 223px;
-    padding-bottom: 480px;
-    overflow: hidden;
- }
  
  #about a, #about a:visited  { color: #fff; }
  #about a:hover, #about a:focus { color: #11ABB0; }
  
  #about p {
    line-height: 44px;
-   color: black;
+   color: snow;
    margin-left: 47px;
    font-size: 18px;
    /* margin-bottom: 28px; */
    margin-top: 117px;
    text-align: justify;
+   font-weight: bolder;
+
  }
  #about .prof {
    position: relative;
@@ -177,66 +196,112 @@
 
 }
 
-
-@media screen and (max-width: 767px) {
-   #about .prof {
-      margin-top: -45px;
+@media only screen and (max-width: 767px) {
+   .video-background {
+       padding-top: 28%; 
    }
-}
 
-@media screen and (max-width: 767px) {
+   .video {
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       object-fit: cover;
+   }
+
    #about p {
-      margin-top: -19px;
-      margin-left: -4px
+       margin-top: 20px; 
+       margin-left: 0;
+       font-size: 16px; 
    }
-}
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
    #about .prof {
-      margin-top: -45px;
+       margin-top: 20px; 
+       width: 150px; 
+       height: 150px;
    }
+   .about {
+      position: relative;
+      overflow: hidden;
+      padding-top: 1px;
+   }
+   
 }
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) {
-   #about p {
-      margin-top: -19px 
-   }
-}
 
 @media only screen 
   and (min-device-width: 768px) 
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 1) 
   and (orientation: landscape) {
-   #about .prof {
-      margin-top: -45px;
-   }
+   .video-background {
+      padding-top: 28%; 
+  }
+
+  .video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+
+  #about p {
+      margin-top: 20px; 
+      margin-left: 0;
+      font-size: 16px; 
+  }
+
+  #about .prof {
+      margin-top: 20px; 
+      width: 150px; 
+      height: 150px;
+  }
+  .about {
+     position: relative;
+     overflow: hidden;
+     padding-top: 1px;
+  }
 }
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (-webkit-min-device-pixel-ratio: 1) 
-  and (orientation: landscape) {
-   #about p {
-      margin-top: -19px 
-   }
-}
+
 
 @media only screen 
-  and (min-device-width: 1024px) /* Réglez la largeur minimale en fonction de votre conception */
-  and (max-device-width: 1366px) /* Réglez la largeur maximale en fonction de votre conception */
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
   and (-webkit-min-device-pixel-ratio: 2) 
   and (orientation: portrait) {
-   #about {
-      padding-top: 326px;
-   }
+   .video-background {
+      padding-top: 28%; 
+  }
+
+  .video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+
+  #about p {
+      margin-top: 20px; 
+      margin-left: 0;
+      font-size: 16px; 
+  }
+
+  #about .prof {
+      margin-top: 20px; 
+      width: 150px; 
+      height: 150px;
+  }
+  .about {
+     position: relative;
+     overflow: hidden;
+     padding-top: 1px;
+  }
 }
 
 
@@ -246,7 +311,33 @@
   and (max-device-width: 1024px) 
   and (-webkit-min-device-pixel-ratio: 2) 
   and (orientation: portrait) {
-   #about {
-      padding-top: 334px;
-   }
+   .video-background {
+      padding-top: 28%; 
+  }
+
+  .video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+
+  #about p {
+      margin-top: 20px; 
+      margin-left: 0;
+      font-size: 16px; 
+  }
+
+  #about .prof {
+      margin-top: 20px; 
+      width: 150px; 
+      height: 150px;
+  }
+  .about {
+     position: relative;
+     overflow: hidden;
+     padding-top: 1px;
+  }
 }
