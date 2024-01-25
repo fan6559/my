@@ -4,7 +4,7 @@ import "./Competences.css";
 
 function Competences (){
 return(
-    <div id="competences" className="competences">
+    <div className="competences">
         <div className="wrap">
    <div className="section-title wow fadeInUp">
      <h1>Compétences Informatiques :</h1>

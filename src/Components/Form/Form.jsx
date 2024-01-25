@@ -4,7 +4,7 @@ import "./Form.css"
 
 function Form () {
     return(
-     <div  id="contact" className="tact">
+     <div className="tact">
          <div className="contact">
          <h2>Contactez-moi !</h2>
          </div>

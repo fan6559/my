@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 import { BrowserRouter as Router, Route, Switch, useLocation } from 'react-router-dom';
-import Navbar2 from "./Components/Navbar2/Navbar"
+import Navbar from "./Components/Navbar/Navbar";
 import Header from "./Components/Header/Header"
 import About from "./Components/About/About";
 import Competences from "./Components/Competences/Competences";
@@ -15,15 +15,15 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar2 />
+        <Navbar />
         <Switch>
           <Route path="/" exact component={Header} />
-          <Route path="/about" component={About} />
-          <Route path="/competences" component={Competences} />
-          <Route path="/projets" component={Projets} />
-          <Route path="/interet2" component={Interet2} />
-          <Route path="/pictures" component={Pictures} />
-          <Route path="/contact">
+          <Route path="/About" component={About} />
+          <Route path="/Competences" component={Competences} />
+          <Route path="/Projets" component={Projets} />
+          <Route path="/Interet2" component={Interet2} />
+          <Route path="/Pictures" component={Pictures} />
+          <Route path="/Contact">
             <Form />
             <Footer />
           </Route>

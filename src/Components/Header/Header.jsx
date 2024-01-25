@@ -1,19 +1,46 @@
-import React from "react";
-import "../Header/Header.css"
+import React, { useState, useEffect } from "react";
+import "../Header/Header.css";
 
-function Header (){
+function Header() {
 
-return (
-    <header>
-        <div id="header" className="row banner">
-            <div className="banner-text">
-              <h1 className="responsive-headline">Fanny Camus</h1>
-              </div>
-              </div>
+  const [greeting, setGreeting] = useState("Bonjour 😎");
+
+  
+  const getCurrentTime = () => {
+    const now = new Date();
+    const hours = now.getHours();
+    const minutes = now.getMinutes();
+    return `${hours}:${minutes}`;
+  };
+
+  
+  useEffect(() => {
+    const updateGreeting = () => {
+      const currentTime = getCurrentTime();
+      if (currentTime >= '17:00') {
+        setGreeting('Bonsoir 😴');
+      } else {
+        setGreeting('Bonjour 😎');
+      }
+    };
+
+    
+    updateGreeting();
+    const intervalId = setInterval(updateGreeting, 1000);
+
    
-   </header>
-  );
+    return () => clearInterval(intervalId);
+  }, []);
 
+  return (
+    <header>
+      <div className="row banner">
+        <div className="banner-text">
+          <h1 className="responsive-headline">{greeting}</h1>
+        </div>
+      </div>
+    </header>
+  );
 }
 
-export default Header; 
+export default Header;
