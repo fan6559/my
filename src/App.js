@@ -1,6 +1,6 @@
 import React from "react";
 import './App.css';
-import { BrowserRouter as Router, Route, Switch, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Navbar from "./Components/Navbar/Navbar";
 import Header from "./Components/Header/Header"
 import About from "./Components/About/About";
@@ -18,11 +18,11 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Header} />
-          <Route path="/About" component={About} />
-          <Route path="/Competences" component={Competences} />
-          <Route path="/Projets" component={Projets} />
-          <Route path="/Interet2" component={Interet2} />
-          <Route path="/Pictures" component={Pictures} />
+          <Route path="/About" exact component={About} />
+          <Route path="/Competences" exact component={Competences} />
+          <Route path="/Projets" exact component={Projets} />
+          <Route path="/Interet2" exact component={Interet2} />
+          <Route path="/Pictures" exact component={Pictures} />
           <Route path="/Contact">
             <Form />
             <Footer />

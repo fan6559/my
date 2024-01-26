@@ -9,7 +9,7 @@ function Projets () {
        </div>
        <div className="cardm">
         <div className="card-image">
-            <a href="https://github.com/lucas240/HTML-projet-1" target="_blank">
+            <a href="https://github.com/lucas240/HTML-projet-1" target="_blank" rel="noopener noreferrer"> 
             <img src="WebAssembly.png" alt="" />
             </a>
             </div>
@@ -24,7 +24,7 @@ function Projets () {
     </div>
     <div className="cards">
         <div className="card-image">
-            <a href="https://github.com/WildCodeSchool/btz_p2_0919_wildOfWarcraftProgress" target="_blank">
+            <a href="https://github.com/WildCodeSchool/btz_p2_0919_wildOfWarcraftProgress" target="_blank" rel="noopener noreferrer">
             <img src="wow-classic1.jpg" alt="" />
             </a>
             </div>
