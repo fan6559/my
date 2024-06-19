@@ -5,17 +5,14 @@ function About() {
   return (
     <div id="about" className="about">
       <video autoPlay muted playsInline loop className="background-video">
-        <source src={require("../../Components/Videos/mont.mp4")} type="video/mp4" />
+        <source src={require("../../Components/Videos/mer.mp4")} type="video/mp4" />
         Votre navigateur ne prend pas en charge la lecture de vidéos.
       </video>
       <div className="content">
         <div className="row">
           <div className="three columns">
             <img
-              className="prof"
-              src="https://pbs.twimg.com/profile_images/1696253647611412480/P7DipGAp_400x400.jpg"
-              alt=""
-            />
+              className="prof" src={require("../Image/image2.jpg")} alt="Description of the image"/>
           </div>
           <div className="nine columns main-col">
             <p>
